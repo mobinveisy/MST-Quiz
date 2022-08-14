@@ -26,8 +26,3 @@ export default function encoder({ inputString, repeatCount = 1 }) {
   return result;
 }
 
-// let showResult = encoder({
-//     inputString: "abz",
-//     repeatCount: 1,
-//   });
-
