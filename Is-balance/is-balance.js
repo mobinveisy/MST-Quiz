@@ -15,9 +15,9 @@ function isBalance(input) {
   const duplicateElements = toFindDuplicates(characters);
 
   if (duplicateElements.length === characters.length) {
-    result = "True, Characters is Balance!";
+    result = "It's True, Characters is Balance!";
   } else {
-    result = "False, Characters is not Balance!";
+    result = "It's False, Characters is not Balance!";
   }
 
   return result;
