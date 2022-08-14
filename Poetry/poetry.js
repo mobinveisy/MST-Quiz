@@ -28,7 +28,7 @@ export default function poetry(verse) {
 
   } else {
 
-    result = "no verse!";
+    result = "no verse found!";
 
   }
 
