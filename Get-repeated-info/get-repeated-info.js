@@ -18,15 +18,20 @@ export default function getRepeatedInfo(number) {
     obj[num] = num.repeat(num);
     resultArray.push(obj);
     Object.keys(resultObj).forEach((key) => {
+      
       if (key === num) {
         n.push(key);
         let count = n.filter((n) => n === key);
         obj[num] = num.repeat(num * (count.length + 1));
         resultArray.push(obj);
       }
+      
     });
+    
     resultObj = Object.assign({}, ...resultArray);
   });
+  
   result = resultObj;
+  
   return result;
 }
